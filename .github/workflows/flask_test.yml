@@ -6,11 +6,10 @@ on:
       - main
 jobs:
   test:
-
-    runs-on: ubuntu-latest
-	env: "QA"
-
-    steps:
+   runs-on:ubuntu-latest
+  env:
+   MODE: "QA"
+  steps:
     - uses: actions/checkout@v3
     - name: Set up Python
       uses: actions/setup-python@v3
