@@ -20,5 +20,5 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Test App code
+     - name: Test App code
 	  run: python test.py
